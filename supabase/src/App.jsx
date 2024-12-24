@@ -35,7 +35,7 @@ const App =()=>{
       <div style={{ flex: 1, padding: '20px' }}>
         <Routes>
           <Route path="/dashboard" element={<Dashboard/>} />
-          <Route path="/students" element={<Student/>} />
+          <Route path="/" element={<Student/>} />
           <Route path="/chapter" element={<Chapter/>} />
           <Route path="/help" element={<Help/>} />
           <Route path="/reports" element={<Reports/>} />
